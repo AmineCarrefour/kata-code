@@ -5,7 +5,7 @@
                                 ==================================================
 
 **Run 'WikiRanking.scala' for displaying the output speed of each ranking in the console**
-**Run 'WikipediaSuite.scala' for launching unitary tests
+**Run 'WikipediaSuite.scala' for launching unitary tests**
 
 This Kata tests three ways for ranking a dataset by checking each time the latency execution using Spark.
 I have placed in the folder 'src/main/resources/' the .dat file which contains 542 Wikipedia pages, there is one page
