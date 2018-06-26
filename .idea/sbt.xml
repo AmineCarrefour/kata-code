@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="jdk" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="0.13.9" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-Dhttp.proxyHost=10.49.64.5 -Dhttp.proxyPort=8080 -Dhttp.proxyUser=amine_ammenouche -Dhttp.proxyPassword=Spartacus.92 -Dhttp.nonProxyHosts=192.168.1.1|localhost|127.0.0.0|127.0.1.1|127.0.1.1|local.home" />
+  </component>
+</project>

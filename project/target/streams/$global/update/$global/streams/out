@@ -1,0 +1,87 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/amine/coursera-scala-spark-big-data/project/}coursera-scala-spark-big-data-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#coursera-scala-spark-big-data-build;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#coursera-scala-spark-big-data-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#coursera-scala-spark-big-data-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#global-plugins;0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#global-plugins;0.0 in inter-project[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#coursera-scala-spark-big-data-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[31merror[0m] [0mServer access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[31merror[0m] [0mServer access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0[0m
+[0m[[0mdebug[0m] [0m		tried /home/amine/.ivy2/local/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://phenix-nexus.edc.carrefour.com/content/groups/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[31merror[0m] [0mServer access Error: java.security.cert.CertificateException: No subject alternative DNS name matching phenix-nexus.edc.carrefour.com found. url=https://phenix-nexus.edc.carrefour.com/content/groups/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	udd-ivy-proxy-releases: no ivy file found for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0[0m
+[0m[[0mdebug[0m] [0m		tried https://phenix-nexus.edc.carrefour.com/content/groups/public/com/typesafe/sbteclipse/sbteclipse-plugin_2.10_0.13/4.0.0/sbteclipse-plugin-4.0.0.pom[0m
+[0m[[31merror[0m] [0mServer access Error: java.security.cert.CertificateException: No subject alternative DNS name matching phenix-nexus.edc.carrefour.com found. url=https://phenix-nexus.edc.carrefour.com/content/groups/public/com/typesafe/sbteclipse/sbteclipse-plugin_2.10_0.13/4.0.0/sbteclipse-plugin-4.0.0.pom[0m
+[0m[[0mdebug[0m] [0m	udd-maven-proxy-releases: no ivy file found for com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0[0m
+[0m[[33mwarn[0m] [0m	module not found: com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0[0m
+[0m[[33mwarn[0m] [0m==== typesafe-ivy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== sbt-plugin-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  /home/amine/.ivy2/local/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== udd-ivy-proxy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://phenix-nexus.edc.carrefour.com/content/groups/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== udd-maven-proxy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://phenix-nexus.edc.carrefour.com/content/groups/public/com/typesafe/sbteclipse/sbteclipse-plugin_2.10_0.13/4.0.0/sbteclipse-plugin-4.0.0.pom[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#coursera-scala-spark-big-data-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-js#sbt-scalajs;0.6.11 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-js#sbt-scalajs;0.6.11 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving org.scala-js#sbt-scalajs;0.6.11 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-js#sbt-scalajs;0.6.11 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[31merror[0m] [0mServer access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for org.scala-js#sbt-scalajs;0.6.11[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[31merror[0m] [0mServer access Error: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for org.scala-js#sbt-scalajs;0.6.11[0m
+[0m[[0mdebug[0m] [0m		tried /home/amine/.ivy2/local/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-js#sbt-scalajs;0.6.11[0m
+[0m[[0mdebug[0m] [0m		tried https://phenix-nexus.edc.carrefour.com/content/groups/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[31merror[0m] [0mServer access Error: java.security.cert.CertificateException: No subject alternative DNS name matching phenix-nexus.edc.carrefour.com found. url=https://phenix-nexus.edc.carrefour.com/content/groups/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	udd-ivy-proxy-releases: no ivy file found for org.scala-js#sbt-scalajs;0.6.11[0m
+[0m[[0mdebug[0m] [0m		tried https://phenix-nexus.edc.carrefour.com/content/groups/public/org/scala-js/sbt-scalajs_2.10_0.13/0.6.11/sbt-scalajs-0.6.11.pom[0m
+[0m[[31merror[0m] [0mServer access Error: java.security.cert.CertificateException: No subject alternative DNS name matching phenix-nexus.edc.carrefour.com found. url=https://phenix-nexus.edc.carrefour.com/content/groups/public/org/scala-js/sbt-scalajs_2.10_0.13/0.6.11/sbt-scalajs-0.6.11.pom[0m
+[0m[[0mdebug[0m] [0m	udd-maven-proxy-releases: no ivy file found for org.scala-js#sbt-scalajs;0.6.11[0m
+[0m[[33mwarn[0m] [0m	module not found: org.scala-js#sbt-scalajs;0.6.11[0m
+[0m[[33mwarn[0m] [0m==== typesafe-ivy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://repo.typesafe.com/typesafe/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== sbt-plugin-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== local: tried[0m
+[0m[[33mwarn[0m] [0m  /home/amine/.ivy2/local/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== udd-ivy-proxy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://phenix-nexus.edc.carrefour.com/content/groups/ivy-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.11/ivys/ivy.xml[0m
+[0m[[33mwarn[0m] [0m==== udd-maven-proxy-releases: tried[0m
+[0m[[33mwarn[0m] [0m  https://phenix-nexus.edc.carrefour.com/content/groups/public/org/scala-js/sbt-scalajs_2.10_0.13/0.6.11/sbt-scalajs-0.6.11.pom[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#coursera-scala-spark-big-data-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-M15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving io.get-coursier#sbt-coursier;1.0.0-M15 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.get-coursier#sbt-coursier;1.0.0-M15 {compile=[default(compile)]}[0m
+[0m[[0minfo[0m] [0mResolving io.get-coursier#sbt-coursier;1.0.0-M15 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: io.get-coursier#sbt-coursier;1.0.0-M15 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/sbt-coursier/scala_2.10/sbt_0.13/1.0.0-M15/ivys/ivy.xml[0m

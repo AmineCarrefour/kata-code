@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.bouncycastle:bcprov-jdk15on:1.51:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/phenix-nexus.edc.carrefour.com/content/groups/public/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/phenix-nexus.edc.carrefour.com/content/groups/public/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/phenix-nexus.edc.carrefour.com/content/groups/public/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

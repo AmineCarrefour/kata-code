@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.hadoop:hadoop-mapreduce-client-shuffle:2.6.5:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/phenix-nexus.edc.carrefour.com/content/groups/public/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/phenix-nexus.edc.carrefour.com/content/groups/public/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.coursier/cache/v1/https/phenix-nexus.edc.carrefour.com/content/groups/public/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.5/hadoop-mapreduce-client-shuffle-2.6.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
